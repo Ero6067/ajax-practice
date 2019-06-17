@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Bill Gates",
+    "company": "Microsoft",
+    "phone": "778-587-9654"
+  },
+
+  {
+    "id": 2,
+    "name": "Steve Jobs",
+    "company": "Apple",
+    "phone": "123.456.7890"
+  },
+
+  {
+    "id": 3,
+    "name": "Linus Torvalds",
+    "company": "Linux",
+    "phone": "852-741-9635"
+  }
+]
