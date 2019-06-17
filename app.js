@@ -14,9 +14,10 @@ function loadData() {
     console.log('READYSTATE', xhr.readyState)
   }
 
-  xhr.onload = function () {
+  xhr.onload = function() {
     if( this.status === 200) {
       console.log(this.responseText);
+      document.getElementById('output').innerHTML = `<h2>${this.responseText}</h2>`;
     }
   }
 
@@ -28,7 +29,7 @@ function loadData() {
   // 1: server connection established
   // 2: request received
   // 3: processing request
-  // 4: request finished and the repsonse is ready
+  // 4: request finished and the response is ready
 
   // HTTP Statuses
   // 200: "OK"
