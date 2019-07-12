@@ -10,5 +10,5 @@ Uses HTML5, Javascript, Skeleton
 
 # Run
 
-* `clone https://github.com/Ero6067/ajax-practice.git`
+* `git clone https://github.com/Ero6067/ajax-practice.git`
 * open index.html
